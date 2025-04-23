@@ -1,0 +1,185 @@
+{
+    "metadata": {
+        "LOCUS": {
+            "content": "NC_000010             108306 bp    DNA     linear   CON 26-AUG-2024",
+            "subKeywords": {}
+        },
+        "DEFINITION": {
+            "content": "Homo sapiens chromosome 10, GRCh38.p14 Primary Assembly.",
+            "subKeywords": {}
+        },
+        "ACCESSION": {
+            "content": "NC_000010 REGION: 87863625..87971930",
+            "subKeywords": {}
+        },
+        "VERSION": {
+            "content": "NC_000010.11  GI:568815588",
+            "subKeywords": {}
+        },
+        "DBLINK": {
+            "content": "BioProject: PRJNA168\nAssembly: GCF_000001405.40",
+            "subKeywords": {}
+        },
+        "KEYWORDS": {
+            "content": "RefSeq.",
+            "subKeywords": {}
+        },
+        "SOURCE": {
+            "content": "Homo sapiens (human)",
+            "subKeywords": {
+                "ORGANISM": "Homo sapiens"
+            }
+        },
+        "REFERENCE": [
+            {
+                "content": "1  (bases 1 to 108306)",
+                "subKeywords": {
+                    "CONSRTM": "International Human Genome Sequencing Consortium",
+                    "TITLE": "Finishing the euchromatic sequence of the human genome",
+                    "JOURNAL": "Nature 431 (7011), 931-945 (2004)"
+                }
+            },
+            {
+                "content": "2  (bases 1 to 108306)",
+                "subKeywords": {
+                    "AUTHORS": "Deloukas,P., Earthrowl,M.E., Grafham,D.V., Rubenfield,M.,",
+                    "TITLE": "The DNA sequence and comparative analysis of human chromosome 10",
+                    "JOURNAL": "Nature 429 (6990), 375-381 (2004)"
+                }
+            },
+            {
+                "content": "3  (bases 1 to 108306)",
+                "subKeywords": {
+                    "AUTHORS": "Lander,E.S., Linton,L.M., Birren,B., Nusbaum,C., Zody,M.C.,",
+                    "CONSRTM": "International Human Genome Sequencing Consortium",
+                    "TITLE": "Initial sequencing and analysis of the human genome",
+                    "JOURNAL": "Nature 409 (6822), 860-921 (2001)",
+                    "REMARK": "Erratum:[Nature 2001 Aug 2;412(6846):565]"
+                }
+            }
+        ],
+        "COMMENT": {
+            "content": "REFSEQ INFORMATION: The reference sequence is identical to\nCM000672.2.\nOn Feb 3, 2014 this sequence version replaced NC_000010.10.\nAssembly Name: GRCh38.p14 Primary Assembly\nThe DNA sequence is composed of genomic sequence, primarily\nfinished clones that were sequenced as part of the Human Genome\nProject. PCR products and WGS shotgun sequence have been added\nwhere necessary to fill gaps or correct errors. All such additions\nare manually curated by GRC staff. For more information see:\nhttps://genomereference.org.\n##Genome-Annotation-Data-START##\nAnnotation Provider         :: NCBI RefSeq\nAnnotation Status           :: Updated annotation\nAnnotation Name             :: GCF_000001405.40-RS_2024_08\nAnnotation Pipeline         :: NCBI eukaryotic genome annotation\npipeline\nAnnotation Software Version :: 10.3\nAnnotation Method           :: Best-placed RefSeq; Gnomon;\nRefSeqFE; cmsearch; tRNAscan-SE\nFeatures Annotated          :: Gene; mRNA; CDS; ncRNA\nAnnotation Date             :: 08/23/2024\n##Genome-Annotation-Data-END##",
+            "subKeywords": {}
+        }
+    },
+    "features": [
+        {
+            "type": "source",
+            "location": "1..108306",
+            "qualifiers": {}
+        },
+        {
+            "type": "misc_feature",
+            "location": "<1..65",
+            "qualifiers": {}
+        },
+        {
+            "type": "region",
+            "location": "2585\"",
+            "qualifiers": {}
+        },
+        {
+            "type": "computational",
+            "location": "analysis using gene prediction method:",
+            "qualifiers": {}
+        },
+        {
+            "type": "regulatory",
+            "location": "<1..65",
+            "qualifiers": {}
+        },
+        {
+            "type": "gene",
+            "location": "1..108306",
+            "qualifiers": {}
+        },
+        {
+            "type": "automated",
+            "location": "computational analysis using gene prediction",
+            "qualifiers": {}
+        },
+        {
+            "type": "mRNA",
+            "location": "join(1..924,30401..30485,61889..61933,67422..67465,",
+            "qualifiers": {},
+            "id": "mRNA_1"
+        },
+        {
+            "type": "variant",
+            "location": "2\"",
+            "qualifiers": {}
+        },
+        {
+            "type": "frameshift",
+            "location": "compared to this genomic sequence; Derived by",
+            "qualifiers": {}
+        },
+        {
+            "type": "automated",
+            "location": "computational analysis using gene prediction",
+            "qualifiers": {}
+        },
+        {
+            "type": "mRNA",
+            "location": "join(1..924,30401..30485,61889..61933,67422..67465,",
+            "qualifiers": {},
+            "id": "mRNA_2"
+        },
+        {
+            "type": "variant",
+            "location": "1\"",
+            "qualifiers": {}
+        },
+        {
+            "type": "gene",
+            "location": "prediction method: BestRefSeq.\"",
+            "qualifiers": {}
+        },
+        {
+            "type": "mRNA",
+            "location": "join(1..924,30401..30485,67422..67465,69389..69627,",
+            "qualifiers": {},
+            "id": "mRNA_3"
+        },
+        {
+            "type": "variant",
+            "location": "3\"",
+            "qualifiers": {}
+        },
+        {
+            "type": "Derived",
+            "location": "by automated computational analysis using gene",
+            "qualifiers": {}
+        },
+        {
+            "type": "prediction",
+            "location": "method: BestRefSeq.\"",
+            "qualifiers": {}
+        },
+        {
+            "type": "misc_feature",
+            "location": "156..295",
+            "qualifiers": {}
+        },
+        {
+            "type": "region",
+            "location": "2586\"",
+            "qualifiers": {}
+        },
+        {
+            "type": "computational",
+            "location": "analysis using gene prediction method:",
+            "qualifiers": {}
+        },
+        {
+            "type": "regulatory",
+            "location": "156..295",
+            "qualifiers": {}
+        }
+    ],
+    "sequence_info": {
+        "length": 108306,
+        "fasta_file": "ptenSequence_sequence.fasta"
+    }
+}
